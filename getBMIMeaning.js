@@ -3,7 +3,7 @@ function calculateBMI (weight, height) {
   return weight/(height*height)
 }
 function getBMIMeaning(weight, height){
-  let BMI = calculateBMI() 
+  let BMI = calculateBMI(weight, height) 
   if (BMI < 18.5){
       return "UnderWeight"
   }else if (BMI < 25) {

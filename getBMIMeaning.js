@@ -12,5 +12,4 @@ function getBMIMeaning(weight, height){
       return "Overweight"
      
 } 
-console.log(getBMIMeaning())
 module.exports = getBMIMeaning
